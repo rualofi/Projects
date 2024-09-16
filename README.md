@@ -6,10 +6,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <style>
-        table { border-collapse: collapse; }
-        td { border: 1px solid; padding: 10px; }
-    </style>
+        Мои проекты
 </head>
 <body>
     <table>
