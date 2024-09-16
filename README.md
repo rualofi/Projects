@@ -10,34 +10,12 @@
     <style>
         table {
             border-collapse: collapse;
+            margin: 20px;
         }
         td {
+            border: 2px solid;
             padding: 10px;
-            position: relative;
-        }
-        td::before {
-            content: "🌸";
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        td::after {
-            content: "🌸";
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        td:first-child::before, td:first-child::after {
-            left: -15px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-        td:last-child::before, td:last-child::after {
-            right: -15px;
-            top: 50%;
-            transform: translateY(-50%);
+            border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='50'%3E🌸%3C/text%3E%3C/svg%3E") 15 round;
         }
     </style>
 </head>
