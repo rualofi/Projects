@@ -2,7 +2,7 @@
         <h1>Привет! Меня зовут Аполлинария!</h1>
         <h3>Я начинающий Data Scientist. Занимаюсь параллельным изучением экономики, финансов и технологий Data Science.</h3>
     </div>
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
             border-collapse: collapse;
         }
         td {
-            border: 2px solid 🌸;
+            border: 2px solid '🌸';
             padding: 10px;
         }
     </style>
