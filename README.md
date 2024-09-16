@@ -10,12 +10,39 @@
     <style>
         table {
             border-collapse: collapse;
-            margin: 20px;
         }
         td {
-            border: 2px solid;
             padding: 10px;
-            border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='50'%3E🌸%3C/text%3E%3C/svg%3E") 15 round;
+            border: 1px solid transparent;
+        }
+        tr {
+            display: inline-block;
+            border: 2px solid transparent;
+        }
+        table, td {
+            border-spacing: 0;
+        }
+        td:first-child {
+            border-left: 2px solid;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+        }
+        td:last-child {
+            border-right: 2px solid;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+        }
+        table td {
+            border-color: #ffffff;
+            background-color: transparent;
+        }
+        table {
+            border-collapse: separate;
+        }
+        table tr::before, table tr::after {
+            content: "🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸";
+            display: block;
+            text-align: center;
         }
     </style>
 </head>
