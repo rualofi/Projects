@@ -12,8 +12,32 @@
             border-collapse: collapse;
         }
         td {
-            border: 2px solid '🌸';
             padding: 10px;
+            position: relative;
+        }
+        td::before {
+            content: "🌸";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        td::after {
+            content: "🌸";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        td:first-child::before, td:first-child::after {
+            left: -15px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        td:last-child::before, td:last-child::after {
+            right: -15px;
+            top: 50%;
+            transform: translateY(-50%);
         }
     </style>
 </head>
