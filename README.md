@@ -1,6 +1,6 @@
 <div id="header" align="center">
         <h1>Привет! Меня зовут Аполлинария!</h1>
-        <h3>Я начинающий Data Scientist. Занимаюсь параллельным изучением экономики, финансов и технологий Data Science.</h3>
+        <h3>Я начинающий Data Scientist. Занимаюсь параллельным изучением экономики, финансов и Data Science.</h3>
     </div>
 <!DOCTYPE html>
 <html lang="ru">
