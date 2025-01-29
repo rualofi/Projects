@@ -3,33 +3,33 @@
 Данные для проекта были взяты с сайта Kaggle.
 Датасет состоит из 45000 строк и 14 столбцов:
 
-<b>person_age </b> - возраст человека;
-
-<b>person_gender </b> - пол человека;
-
-<b>person_education	 </b> - высший уровень образования;
-
-<b>person_income </b> - годовой доход;
-
-<b>person_emp_exp </b> - опыт работы в годах;
-
-<b>person_home_ownership </b> - статус права собственности на жилье;
-
-<b>loan_amnt </b> - запрашиваемая сумма кредита;
-
-<b>loan_intent </b> - цель кредита;
-
-<b>loan_int_rate </b> - процентная ставка по кредиту;
-
-<b>loan_percent_income </b> - сумма кредита в процентах от годового дохода;
-
-<b>cb_person_cred_hist_length </b> - длина кредитной истории в годах;
-
-<b>credit_score </b> - кредитный рейтинг человека;
-
-<b>previous_loan_defaults_on_file </b> - индикатор предыдущих невыплат кредита;
-
-<b>loan_status </b> - статус одобрения кредита.
+  <b>person_age </b> - возраст человека;
+  
+  <b>person_gender </b> - пол человека;
+  
+  <b>person_education	 </b> - высший уровень образования;
+  
+  <b>person_income </b> - годовой доход;
+  
+  <b>person_emp_exp </b> - опыт работы в годах;
+  
+  <b>person_home_ownership </b> - статус права собственности на жилье;
+  
+  <b>loan_amnt </b> - запрашиваемая сумма кредита;
+  
+  <b>loan_intent </b> - цель кредита;
+  
+  <b>loan_int_rate </b> - процентная ставка по кредиту;
+  
+  <b>loan_percent_income </b> - сумма кредита в процентах от годового дохода;
+  
+  <b>cb_person_cred_hist_length </b> - длина кредитной истории в годах;
+  
+  <b>credit_score </b> - кредитный рейтинг человека;
+  
+  <b>previous_loan_defaults_on_file </b> - индикатор предыдущих невыплат кредита;
+  
+  <b>loan_status </b> - статус одобрения кредита.
 
 
 <b>Таргет </b> - loan_status.
@@ -62,7 +62,7 @@
    - был осуществлен подбор модели и гиперпараметров, показывающих наилучший результат, при помощи Pipeline & RandomizedSearcCV
    - Лучше всех себя показала модель DecisionTreeCLassifier, метрика на кросс-валидации 0,97
 <img width="307" alt="image" src="https://github.com/user-attachments/assets/296af6cd-6859-42aa-9207-d02f30529a4c" />
-<img width="526" alt="image" src="https://github.com/user-attachments/assets/1fefc8a3-f2bb-4947-a1cb-ba9d3f48b709" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/1fefc8a3-f2bb-4947-a1cb-ba9d3f48b709" />
   
   <b>Интерпретация модели:</b>
    - наибольшее влияние на таргет оказывают следующие признаки:
@@ -74,5 +74,9 @@
        - person_age (возраст человека);
        - loan_amnt (запрашиваемая сумма кредита);
        - person_education (высший уровень образования).
-<img width="807" alt="image" src="https://github.com/user-attachments/assets/fbb912d1-1691-42a2-8ff3-ba8cad79837b" />
+    
+  *Значимость признаков и фрагмент дерева решений*
+  
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/fbb912d1-1691-42a2-8ff3-ba8cad79837b" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6a9be0fe-ec00-4d1a-921c-380f9b08878a" />
 
