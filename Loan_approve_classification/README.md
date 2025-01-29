@@ -60,7 +60,7 @@
   
   <b>Обучение модели:</b>
    - был осуществлен подбор модели и гиперпараметров, показывающих наилучший результат, при помощи Pipeline & RandomizedSearcCV
-   - Лучше всех себя показала модель DecisionTreeCLassifier, метрика на кросс-валидации 0,97
+   - Лучше всех себя показала модель DecisionTreeCLassifier, метрика на кросс-валидации 0,97, на тесте accuracy 0,88
 <img width="307" alt="image" src="https://github.com/user-attachments/assets/296af6cd-6859-42aa-9207-d02f30529a4c" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/1fefc8a3-f2bb-4947-a1cb-ba9d3f48b709" />
   
